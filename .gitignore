@@ -57,8 +57,6 @@ public/content/cache
 public/content/uploads
 public/content/upgrade
 public/content/upgrade-temp-backup
-public/content/plugins
-public/content/mu-plugins
 public/content/languages
 
 public/dist
