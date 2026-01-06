@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /*
 |--------------------------------------------------------------------------
