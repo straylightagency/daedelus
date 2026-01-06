@@ -1,14 +1,14 @@
 {
-    "name": "daedelus/daedelus",
+    "name": "daedelus/app",
     "description": "Skeleton app for WordPress using Daedelus Framework",
     "type": "skeleton",
     "minimum-stability": "dev",
     "require": {
         "php": ">=8.3",
         "daedelus/framework": "dev-main",
-        "daedelus/cogent": "dev-main",
         "daedelus/support": "dev-main",
         "daedelus/theme": "dev-main",
+        "daedelus/cogent": "dev-main",
         "daedelus/fields": "dev-main"
     },
     "license": "MIT",
