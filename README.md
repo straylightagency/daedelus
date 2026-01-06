@@ -4,5 +4,5 @@
 
 Create a new project using composer :
 ```shell
-composer create-project daedelus/daedelus
+composer create-project daedelus/app
 ```
