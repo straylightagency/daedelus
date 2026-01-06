@@ -1,7 +1,7 @@
 {
     "name": "daedelus/app",
     "description": "Skeleton app for WordPress using Daedelus Framework",
-    "type": "skeleton",
+    "type": "project",
     "minimum-stability": "dev",
     "require": {
         "php": ">=8.3",
