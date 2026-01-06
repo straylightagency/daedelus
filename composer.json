@@ -1,0 +1,36 @@
+{
+    "name": "daedelus/daedelus",
+    "description": "Skeleton app for WordPress using Daedelus Framework",
+    "type": "skeleton",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.3",
+        "daedelus/framework": "dev-main",
+        "daedelus/cogent": "dev-main",
+        "daedelus/support": "dev-main",
+        "daedelus/theme": "dev-main",
+        "daedelus/fields": "dev-main"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Pauwels",
+            "email": "anthony@straylightagency.be",
+            "homepage": "https://straylightagency.be/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project generated files #
+###########################
+bower_components
+node_modules
+vendor
+.idea_modules
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# IDE and editors #
+###################
+.idea
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.iml
+*.ipr
+*.iws
+
+# Wordpress #
+#############
+sitemap.xml
+sitemap.xml.gz
+robots.txt
+.htaccess
+
+# Wordpress Content #
+#####################
+public/content/backups
+public/content/cache
+public/content/uploads
+public/content/upgrade
+public/content/upgrade-temp-backup
+public/content/plugins
+public/content/mu-plugins
+public/content/languages
+
+public/dist
+public/uploads
+
+# Wordpress Core #
+##################
+public/wp-includes
+public/wp-admin
+public/license.txt
+public/readme.html
+public/wp-activate.php
+public/wp-blog-header.php
+public/wp-comments-post.php
+public/wp-cron.php
+public/wp-links-opml.php
+public/wp-load.php
+public/wp-login.php
+public/wp-mail.php
+public/wp-settings.php
+public/wp-signup.php
+public/wp-trackback.php
+public/xmlrpc.php
